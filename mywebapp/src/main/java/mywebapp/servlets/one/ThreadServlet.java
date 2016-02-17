@@ -1,4 +1,4 @@
-package mywebapp.servlets.three;
+package mywebapp.servlets.one;
 
 /**
  * Created by OmniTool on 16.02.16.

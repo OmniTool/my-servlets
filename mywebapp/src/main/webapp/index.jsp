@@ -6,5 +6,11 @@ Call the <a href="http://localhost:8080/mywebapp/ServletsRule"/>servlet Servlets
 Call the <a href="http://localhost:8080/mywebapp/EchoForm"/>servlet EchoForm</a>.
 <br>
 Call the <a href="http://localhost:8080/mywebapp/ThreadServlet"/>servlet ThreadServlet</a>.
+<br>
+Call the <a href="http://localhost:8080/mywebapp/SessionPeek"/>servlet SessionPeek</a>.
+<br>
+
+Call the <a href="http://localhost:8080/mywebapp/MyServletsRule"/>servlet MyServletsRule</a>.
+<br>
 </body>
 </html>
