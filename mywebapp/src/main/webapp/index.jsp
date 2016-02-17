@@ -5,12 +5,16 @@ Call the <a href="http://localhost:8080/mywebapp/ServletsRule"/>servlet Servlets
 <br>
 Call the <a href="http://localhost:8080/mywebapp/EchoForm"/>servlet EchoForm</a>.
 <br>
+
 Call the <a href="http://localhost:8080/mywebapp/ThreadServlet"/>servlet ThreadServlet</a>.
 <br>
 Call the <a href="http://localhost:8080/mywebapp/SessionPeek"/>servlet SessionPeek</a>.
 <br>
-
 Call the <a href="http://localhost:8080/mywebapp/MyServletsRule"/>servlet MyServletsRule</a>.
+<br>
+Call the <a href="http://localhost:8080/mywebapp/ServletWithCookie"/>servlet ServletWithCookie</a>.
+<br>
+Call the <a href="http://localhost:8080/mywebapp/MySessionPeek"/>servlet MySessionPeek</a>.
 <br>
 </body>
 </html>
