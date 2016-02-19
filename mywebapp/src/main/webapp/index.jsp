@@ -1,6 +1,10 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <title>Servlets + JSP</title>
+</head>
 <body>
-<h1>ServletsRule</h1>
+<h1>Немного русского текста тут</h1>
 Call the <a href="http://localhost:8080/mywebapp/ServletsRule"/>servlet ServletsRule</a>.
 <br>
 Call the <a href="http://localhost:8080/mywebapp/EchoForm"/>servlet EchoForm</a>.
