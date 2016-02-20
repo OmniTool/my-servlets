@@ -6,20 +6,11 @@
 </head>
 <body>
 ${textA}
-${textB}
+<%= session.getAttribute("textA")%>
 <br>
-<%
-    Enumeration flds = request.getParameterNames();
-    if (!flds.hasMoreElements())
-        out.print("No attributes");
-    else {
-        while (flds.hasMoreElements()) {
-            String field = (String) flds.nextElement();
-            String value = request.getParameter(field);
-            out.print(field + " = " + value + "<br>");
-        }
-    }
-%>
-
+${textB}
+<%= session.getAttribute("textB")%>
+<br>
+<br>
 </body>
 </html>

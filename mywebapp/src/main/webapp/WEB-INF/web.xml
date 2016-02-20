@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>TestClient</servlet-name>
+    <servlet-class>mywebapp.servlets.lesson.TestClient</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestClient</servlet-name>
+    <url-pattern>/testclient</url-pattern>
+  </servlet-mapping>
 </web-app>

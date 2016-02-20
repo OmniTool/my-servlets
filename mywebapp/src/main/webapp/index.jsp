@@ -23,6 +23,9 @@ Call the <a href="http://localhost:8080/mywebapp/MyFirstJSP.jsp"/>jsp MyFirstJSP
 <br>
 Call the <a href="http://localhost:8080/mywebapp/MyServlet"/>jsp + servlet</a>.
 <br>
+Call the <a href="http://localhost:8080/mywebapp/lesson.jsp"/>ejb : HelloWorldBean (lesson)</a>.
+<br>
+
 <br>
 <H2>The time in seconds is:
     <%= System.currentTimeMillis()/1000 %></H2>

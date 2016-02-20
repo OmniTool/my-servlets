@@ -27,11 +27,11 @@ public class MyServlet extends HttpServlet {
         //out.println("GET : Hello!");
 
         String varTextA = "Hello World!";
-        request.setAttribute("textA", varTextA);
+        request.getSession().setAttribute("textA", varTextA);
         String varTextB = "It JSP.";
-        request.setAttribute("textB", varTextB);
+        request.getSession().setAttribute("textB", varTextB);
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/myjsp.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("myjsp.jsp");
         dispatcher.forward(request, response);
     }
 }
